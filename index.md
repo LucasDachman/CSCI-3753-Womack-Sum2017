@@ -1,4 +1,4 @@
-## Welcome to CSCI 3753
+## Welcome to Design and Analysis of Operating Systems
 
 To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
 
