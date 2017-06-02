@@ -1,6 +1,6 @@
 ## Welcome to CSCI 3753
 
-To get started you will need to download the Virtual Machine (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
+To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
 
 You'll want the Summer 2017 Edition for this class. **Do not update/upgrade** the VM, as the first programming assignment works with the VM as deployed.
 
