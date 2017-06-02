@@ -1,14 +1,26 @@
 ## Welcome to Design and Analysis of Operating Systems
 
-This layout all of the resources for the course and help you get everything setup for the semester.
+This site layouts all of the resources for the course and helps you get everything setup for the semester.
 
 ### Virtual Machine
 
-To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) <a href="https://foundation.cs.colorado.edu/vm/" target="_blank">CU Foundation</a> website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
+To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
 
 You'll want the Summer 2017 Edition for this class. **Do not update/upgrade** the VM, as the first programming assignment works with the VM as deployed.
 
 If you have trouble installing the VM then get help [here](mailto:ethan.hanner@Colorado.EDU).
+
+### Forums
+
+I will be teaching multiple courses this summer and have not been provided with additional help (TA's). So, inorder to ensure you receive the help you need, we will be using Piazza for discussion/questions regarding problem sets and programming assignments.
+
+### Course Website
+
+### Github
+
+### Cloning this repository
+
+
 
 ### Markdown
 
@@ -31,13 +43,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chris-womack/chris-womack.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
