@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 
-title: [The title of your site]
-description: [A short description of your site's purpose]
+title: [Design and Analysis of Operating Systems]
+description: [Examines software comprising computing systems as it builds upon hardware to provide a programming environment. Looks at structure and function of editors, compilers/assemblers, linkers, etc.]
 
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+show_downloads: ["true"]
