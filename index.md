@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to CSCI 3753
 
-You can use the [editor on GitHub](https://github.com/chris-womack/chris-womack.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To get started you will need to download the Virtual Machine (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
 
 ### Markdown
 
