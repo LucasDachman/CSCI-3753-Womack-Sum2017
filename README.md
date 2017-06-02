@@ -1,1 +1,1 @@
-# CSCI-3753-Womack-Sum2017asdfg
+# CSCI-3753-Womack-Sum2017
