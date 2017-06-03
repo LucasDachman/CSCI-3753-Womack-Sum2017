@@ -38,13 +38,18 @@ You can download the content of the class repo through the download links to the
 ```Shell
 bash: command not found: git
 ```
-   Then type:
+   Then run:
 ```Shell
 sudo apt-get install git-all
 ```
 
-4. 
+4. Clone the repo in your home area
+```Shell
+git clone https://github.com/chris-womack/CSCI-3753-Womack-Sum2017.git
+````
+*Note:* You will likely need to input your username and password for Github unless you have setup your ssh keys.
 
+Alternatively you can visit the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
 
 <br>
 ### Course Calendar
