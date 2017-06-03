@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+<link rel="shortcut icon" href="{{ site.baseurl }}/CSCI-3753-Womack-Sum2017/favicon.ico">
 
 ### Virtual Machine
 
@@ -29,20 +29,20 @@ As moodle can be a little tedious to use for downloading all class material, I w
 
 There are several ways to get the course content. The easiest, though less versitile if changes are made to the repo, is to download the content through the download links to the left. The second method is to use git and fork the repo to your account, then clone the repo to your local machine. You can follow the steps below to fork/sync the repo:
 
-1. Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
+- Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
    - Also checkout the [Student Developer Pack](https://education.github.com/pack) if you don't already have it. Some really good stuff here including private repos
    
-2. Use the "View on Github" link to the left to view the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
+- Use the "View on Github" link to the left to view the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
 
-3. Now we need to clone the repo to your local machine. First open a terminal in the VM
+- Now we need to clone the repo to your local machine. First open a terminal in the VM
 
-4. Type the following to see if git is installed
+- Type the following to see if git is installed
 
 ```Shell
 $ git
 ```
 
-5. If the return looks like this:
+- If the return looks like this:
 
 ```Shell
 bash: command not found: git
@@ -52,7 +52,7 @@ bash: command not found: git
 $ sudo apt-get install git-all
 ```
 
-6. Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
+- Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
 
 ```Shell
 $ git clone https://github.com/<GITHUB_USERNAME>/CSCI-3753-Womack-Sum2017.git
