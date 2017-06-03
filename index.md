@@ -38,25 +38,25 @@ There are several ways to get the course content. The easiest, though less versi
 
 - Type the following to see if git is installed
 
-```Shell
-$ git
-```
+   ```Shell
+   $ git
+   ```
 
 - If the return looks like this:
 
-```Shell
-bash: command not found: git
-```
-   Then run:
-```Shell
-$ sudo apt-get install git-all
-```
+   ```Shell
+   bash: command not found: git
+   ```
+   - Then run:
+   ```Shell
+   $ sudo apt-get install git-all
+   ```
 
 - Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
 
-```Shell
-$ git clone https://github.com/<GITHUB_USERNAME>/CSCI-3753-Womack-Sum2017.git
-````
+   ```Shell
+   $ git clone https://github.com/<GITHUB_USERNAME>/CSCI-3753-Womack-Sum2017.git
+   ````
 *Note:* You will likely need to input your username and password for Github unless you have setup your ssh keys.
 
 
