@@ -1,7 +1,3 @@
-## Welcome to Design and Analysis of Operating Systems
-
-This site layouts all of the resources for the course and helps you get everything setup for the semester.
-
 ### Virtual Machine
 
 To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
