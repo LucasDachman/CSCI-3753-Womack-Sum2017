@@ -28,10 +28,12 @@ As moodle can be a little tedious to use for downloading all class material, I w
 You can download the content of the class repo through the download links to the left or you can use git to clone the repo. You can follow the steps below to install and fork the repo:
 
 1. Open terminal in the VM
+
 2. Type the following to see if git is installed
 ```Shell
 > git
 ```
+
 3. If the return looks like this:
 ```Shell
 bash: command not found: git
@@ -40,6 +42,10 @@ bash: command not found: git
 ```Shell
 sudo apt-get install git-all
 ```
+
+4. 
+
+
 <br>
 ### Course Calendar
 
