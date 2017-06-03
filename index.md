@@ -61,7 +61,8 @@ There are several ways to get the course content. The easiest, though less versi
 
 ### Sync Repository
 
-The steps will sync you local repo with the current version of *this* repo. 
+These steps will sync your local repo with the current version of *this* repo. Run in local repo directory
+
 ```Shell
 # First fetch
 $ git fetch upstream
