@@ -31,7 +31,7 @@ You can download the content of the class repo through the download links to the
 
 2. Type the following to see if git is installed
 ```Shell
-> git
+$ git
 ```
 
 3. If the return looks like this:
@@ -40,12 +40,12 @@ bash: command not found: git
 ```
    Then run:
 ```Shell
-sudo apt-get install git-all
+$ sudo apt-get install git-all
 ```
 
 4. Clone the repo in your home area
 ```Shell
-git clone https://github.com/chris-womack/CSCI-3753-Womack-Sum2017.git
+$ git clone https://github.com/chris-womack/CSCI-3753-Womack-Sum2017.git
 ````
 *Note:* You will likely need to input your username and password for Github unless you have setup your ssh keys.
 
