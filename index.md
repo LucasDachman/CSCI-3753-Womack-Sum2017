@@ -20,7 +20,7 @@ I will be teaching multiple courses this summer and have not been provided with 
 
 ### Cloning this repository
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fc7h4tedeov3j5i43ekp34egrk%40group.calendar.google.com&amp;color=%23333333&amp;src=2slg51gum1v52n9h3dn8fr3r6k%40group.calendar.google.com&amp;color=%23853104&amp;src=hefisd9j01snevm8mjisleau44%40group.calendar.google.com&amp;color=%23125A12&amp;src=9rlrbdnc0bt7jqn93vojlsl8s4%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FDenver" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fc7h4tedeov3j5i43ekp34egrk%40group.calendar.google.com&amp;color=%23333333&amp;src=2slg51gum1v52n9h3dn8fr3r6k%40group.calendar.google.com&amp;color=%23853104&amp;src=hefisd9j01snevm8mjisleau44%40group.calendar.google.com&amp;color=%23125A12&amp;src=9rlrbdnc0bt7jqn93vojlsl8s4%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FDenver" style="border-width:0" width="700" height="500" frameborder="0" scrolling="no"></iframe>
 
 ### Markdown
 
