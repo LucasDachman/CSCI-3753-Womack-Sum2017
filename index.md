@@ -1,4 +1,5 @@
 <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.colorado.edu" />
+href="{{ chris-womack.github.io/CSCI-3753-Womack-Sum2017 }}/favicons.png"
 
 ### Virtual Machine
 
