@@ -35,11 +35,13 @@ There are several ways to get the course content. The easiest, though less versi
 3. Now we need to clone the repo to your local machine. First open a terminal in the VM
 
 4. Type the following to see if git is installed
+
 ```Shell
 $ git
 ```
 
 5. If the return looks like this:
+
 ```Shell
 bash: command not found: git
 ```
@@ -49,6 +51,7 @@ $ sudo apt-get install git-all
 ```
 
 6. Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
+
 ```Shell
 $ git clone https://github.com/<GITHUB_USERNAME>/CSCI-3753-Womack-Sum2017.git
 ````
