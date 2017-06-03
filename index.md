@@ -1,3 +1,9 @@
+### Quick Resource
+
+| Discussion Forum | Course Website | Lectures | Repository |
+|:---:|:---:|:----:| :----:|
+| [Piazza](piazza.com/colorado/summer2017/csci3573/home) | [Moodle](https://moodle.cs.colorado.edu/course/view.php?id=164) | [Youtube](https://www.youtube.com/user/chrisdwomack) | [Github](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017/) |
+
 ### Virtual Machine
 
 To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
