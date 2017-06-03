@@ -4,3 +4,5 @@ title: [Welcome to Design and Analysis of Operating Systems]
 description: [This site layouts all of the resources for the course and helps you get everything setup for the semester.]
 
 show_downloads: ["true"]
+
+<link rel="shortcut icon" href="{{ chris-womack.github.io }}/CSCI-3753-Womack-Sum2017/favicon.ico">
