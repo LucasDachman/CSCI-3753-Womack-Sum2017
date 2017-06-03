@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="{{ site.baseurl }}/CSCI-3753-Womack-Sum2017/favicon.ico">
+<link rel="shortcut icon" href="{{ chris-womack.github.io }}/CSCI-3753-Womack-Sum2017/favicon.ico">
 
 ### Virtual Machine
 
