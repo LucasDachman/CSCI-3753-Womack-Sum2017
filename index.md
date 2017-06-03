@@ -26,8 +26,10 @@ I will be teaching multiple courses this summer and have not been provided with 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```bash
+```Shell
 Syntax highlighted code block
+
+echo $ASDF
 
 # Header 1
 ## Header 2
