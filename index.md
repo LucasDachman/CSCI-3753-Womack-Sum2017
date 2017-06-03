@@ -25,6 +25,8 @@ As moodle can be a little tedious to use for downloading all class material, I w
 - Programming Assignments
 - Demo Code from Class
 
+### Fork Repository
+
 There are several ways to get the course content. The easiest, though less versitile if changes are made to the repo, is to download the content through the download links to the left. The second method is to use git and fork the repo to your account, then clone the repo to your local machine. You can follow the steps below to fork/sync the repo:
 
 - Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
@@ -57,6 +59,22 @@ There are several ways to get the course content. The easiest, though less versi
    ````
 *Note:* You will likely need to input your username and password for Github unless you have setup your ssh keys.
 
+### Sync Repository
+
+The steps will sync you local repo with the current version of *this* repo. 
+```Shell
+# First fetch
+$ git fetch upstream
+
+# Second switch branches
+$ git checkout master
+
+# Now merge with local master
+$ git merge upstream/master
+
+# Finally push to origin master (remote)
+$ git push origin master
+```
 
 <br>
 ### Course Calendar
