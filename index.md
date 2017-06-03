@@ -10,7 +10,7 @@ You'll want the Summer 2017 Edition for this class. **Do not update/upgrade** th
 
 If you have trouble installing the VM then get help [here](mailto:ethan.hanner@Colorado.EDU).
 
-### Forums
+### Class Forum
 
 I will be teaching multiple courses this summer and have not been provided with additional help (TA's). So, inorder to ensure you receive the help you need, we will be using [Piazza](https://piazza.com/colorado/summer2017/csci3573/home) for discussion/questions regarding problem sets and programming assignments.
 
@@ -18,7 +18,7 @@ Sign up using the following link: [Piazza Forum - CSCI 3753](https://piazza.com/
 
 ### Course Website
 
-
+Please enroll ASAP in the [Moodle course web page]((https://moodle.cs.colorado.edu/course/view.php?id=164)). All of your class material will be available through Moodle, and all exams will be administered here as well. The enrollment key is: **kernel**
 
 ### Github
 
