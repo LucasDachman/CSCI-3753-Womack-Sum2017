@@ -23,18 +23,20 @@ As moodle can be a little tedious to use for downloading all class material, I w
 - Lecture Slides
 - Problem Sets
 - Programming Assignments
-- Demo Code
+- Demo Code from Class
 
-You can download the content of the class repo through the download links to the left or you can use git to clone the repo. You can follow the steps below to install and fork the repo:
+There are several ways to get the course content. The easiest, thought less versitile if changes are made to the repo, is to download the content through the download links to the left. The second method is to use git and clone the repo to your local machine. You can follow the steps below to install and fork the repo:
 
-1. Open terminal in the VM
+1. Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
+   - Also checkout the [Student Developer Pack](https://education.github.com/pack) if you don't already have it. Some really good stuff here including private repos
+2. Open terminal in the VM
 
-2. Type the following to see if git is installed
+3. Type the following to see if git is installed
 ```Shell
 $ git
 ```
 
-3. If the return looks like this:
+4. If the return looks like this:
 ```Shell
 bash: command not found: git
 ```
@@ -43,13 +45,13 @@ bash: command not found: git
 $ sudo apt-get install git-all
 ```
 
-4. Clone the repo in your home area
+5. Clone the repo in your home area
 ```Shell
 $ git clone https://github.com/chris-womack/CSCI-3753-Womack-Sum2017.git
 ````
 *Note:* You will likely need to input your username and password for Github unless you have setup your ssh keys.
 
-Alternatively you can visit the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
+The third and final method is to visit the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner. Then clone to your local machine using the steps above.
 
 <br>
 ### Course Calendar
