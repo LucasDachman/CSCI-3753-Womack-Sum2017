@@ -1,5 +1,3 @@
-<link rel="shortcut icon" href="{{ chris-womack.github.io }}/CSCI-3753-Womack-Sum2017/favicon.ico">
-
 ### Virtual Machine
 
 To get started you will need to download the **Virtual Machine** (or VM) from the [CU Foundation](https://foundation.cs.colorado.edu/vm/) website. The website will explain how to download and install the VM. The site also covers some of the issues that may pop up while trying to install, so check this first before asking for help.
