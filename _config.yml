@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 
-title: [CSCI-3753-302/3]
-description: [Analyzes the software that extends hardware to provide a computing environment, including he role of linkers, file systems, resource sharing, security and networking. Studies the history of operating system organization and design and their influence on security, functionality and reliability.]
+title: [Welcome to Design and Analysis of Operating Systems]
+description: [This site layouts all of the resources for the course and helps you get everything setup for the semester.]
 
 show_downloads: ["true"]
