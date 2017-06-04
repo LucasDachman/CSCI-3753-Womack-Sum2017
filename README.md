@@ -51,6 +51,8 @@ As moodle can be a little tedious to use for downloading all class material, I w
 
 There is also a corresponding [website](https://chris-womack.github.io/CSCI-3753-Womack-Sum2017/) that will help you get setup for the semester.
 
+Lecture videos will be hosted on my [youtube channel](https://www.youtube.com/user/chrisdwomack) and will be uploaded weekly.
+
 ### Course Schedule
 
 | Week  | Topic                                                                                             | Reading      |
@@ -72,6 +74,7 @@ There is also a corresponding [website](https://chris-womack.github.io/CSCI-3753
 * Problem Sets - 10%
 
 ## Grading Standards
+
 **Programming Assignments:** Grading for programming assignments (PAs) will be based on interview-style grading, where 40% of the grade will be based on the code submitted (does it compile, does it execute the required functions) and 60% of the grade will be based on answering questions from the instructor in the interview (questions may be based on explaining the code and/or explaining software concepts that the PAs cover), unless otherwise noted. 
 
 No teams.  Each student is responsible for doing their own work.
