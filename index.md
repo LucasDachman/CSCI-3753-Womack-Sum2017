@@ -71,18 +71,17 @@ These steps will sync your local repo with the current version of *this* repo. R
 # First add the upstream
 git remote add upstream https://github.com/chris-womack/CSCI-3753-Womack-Sum2017
 
-# Second fetch
-$ git fetch upstream
+# cd into cloned directory
+cd <cloned directory>
 
-# Third switch branches
-$ git checkout master
-
-# Now merge with local master
-$ git merge upstream/master
+# Second pull in new changes
+$ git pull upstream gh-pages
 
 # Finally push to origin master (remote)
-$ git push origin master
+$ git push origin gh-pages
 ```
+
+The issue that occured earlier is due to a failure on the merge step (I will investigate this more). A pull is fetch/merge combined, so this will automatically pull all new changes from **my** remote repo into the your local repo. You will then need to push these into origin (which is **your** remote repo) gh-pages. 
 
 <br>
 ### Course Calendar
