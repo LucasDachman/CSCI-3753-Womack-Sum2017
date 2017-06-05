@@ -68,10 +68,13 @@ There are several ways to get the course content. The easiest, though less versi
 These steps will sync your local repo with the current version of *this* repo. Run in local repo directory
 
 ```Shell
-# First fetch
+# First add the upstream
+git remote add upstream https://github.com/chris-womack/CSCI-3753-Womack-Sum2017
+
+# Second fetch
 $ git fetch upstream
 
-# Second switch branches
+# Third switch branches
 $ git checkout master
 
 # Now merge with local master
