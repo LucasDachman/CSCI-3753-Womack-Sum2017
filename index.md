@@ -71,15 +71,16 @@ These steps will sync your local repo with the current version of *this* repo. R
 # First add the upstream
 git remote add upstream https://github.com/chris-womack/CSCI-3753-Womack-Sum2017
 
-# After you have run the above command once, you should not need to run it again. The following three will allow you to sync your repo.
+# After you have run the above command once, you should not need to run it again.
+# The following three will allow you to sync your repo.
 
 # cd into cloned directory
 cd <cloned directory>
 
-# Second pull in new changes
+# Second pull in new changes from my remote repo
 $ git pull upstream gh-pages
 
-# Finally push to origin master (remote)
+# Finally push to origin master (your remote repo)
 $ git push origin gh-pages
 ```
 
