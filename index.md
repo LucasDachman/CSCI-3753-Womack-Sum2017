@@ -33,20 +33,20 @@ As moodle can be a little tedious to use for downloading all class material, I w
 
 There are several ways to get the course content. The easiest, though less versitile if changes are made to the repo, is to download the content through the download links to the left. The second method is to use git and fork the repo to your account, then clone the repo to your local machine. You can follow the steps below to fork/sync the repo:
 
-- Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
+1. Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
    - Also checkout the [Student Developer Pack](https://education.github.com/pack) if you don't already have it. Some really good stuff here including private repos
    
-1. Use the "View on Github" link to the left to view the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
+2. Use the "View on Github" link to the left to view the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
 
-2. Now we need to clone the repo to your local machine. First open a terminal in the VM
+3. Now we need to clone the repo to your local machine. First open a terminal in the VM
 
-3. Type the following to see if git is installed
+4. Type the following to see if git is installed
 
    ```Shell
    $ git
    ```
 
-4. If the return looks like this:
+5. If the return looks like this:
 
    ```Shell
    bash: command not found: git
@@ -56,7 +56,7 @@ There are several ways to get the course content. The easiest, though less versi
    $ sudo apt-get install git-all
    ```
 
-5. Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
+6. Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
 
    ```Shell
    $ git clone https://github.com/<GITHUB_USERNAME>/CSCI-3753-Womack-Sum2017.git
@@ -68,19 +68,19 @@ There are several ways to get the course content. The easiest, though less versi
 These steps will sync your local repo with the current version of *this* repo. Run in local repo directory
 
 ```Shell
-# First add the upstream
-git remote add upstream https://github.com/chris-womack/CSCI-3753-Womack-Sum2017
-
-# After you have run the above command once, you should not need to run it again.
-# The following three will allow you to sync your repo.
-
 # cd into cloned directory
 cd <cloned directory>
 
-# Second pull in new changes from my remote repo
+# Then add the upstream repo to sync with
+git remote add upstream https://github.com/chris-womack/CSCI-3753-Womack-Sum2017
+
+# After you have run the above command once, you should not need to run it again.
+# The following two will allow you to sync your repo.
+
+# Pull in new changes from my remote repo
 $ git pull upstream gh-pages
 
-# Finally push to origin master (your remote repo)
+# Push to origin master (your remote repo)
 $ git push origin gh-pages
 ```
 
