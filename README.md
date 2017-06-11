@@ -58,7 +58,7 @@ Lecture videos will be hosted on my [youtube channel](https://www.youtube.com/us
 | Week  | Topic                                                                                             | Reading      |
 |:-----:|:-------------------------------------------------------------------------------------------------:|:------------:|
 | 1     | Intro, Kernel Mode, System Calls, I/O, Interrupts, DMA                                            | Ch. 1, 2, 13 |
-| 2     | Processes, IPC, Synchronization, Mutual Exclusion                                                 |  Ch. 3, 5 |
+| 2     | Processes, IPC, Synchronization, Mutual Exclusion                                                 |  Ch. 3, 4, 5 |
 | 3     | Monitors, Conditional Variables, Deadlock, Deadlock Detection, Avoidance, Scheduling              | Ch. 5, 6, 7 |
 | 4     | Scheduling, Memory Managment                                                                      | Ch. 6, 7, 8 |
 | 5     | Paging, Page Replacement                                                                          | Ch. 8, 9 |
