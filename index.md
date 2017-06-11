@@ -68,6 +68,8 @@ There are several ways to get the course content. The easiest, though less versi
 These steps will sync your local repo with the current version of *this* repo. Run in local repo directory
 
 ```Shell
+# Enter all commands into shell prompt
+
 # cd into cloned directory
 cd <cloned directory>
 
@@ -78,10 +80,10 @@ git remote add upstream https://github.com/chris-womack/CSCI-3753-Womack-Sum2017
 # The following two will allow you to sync your repo.
 
 # Pull in new changes from my remote repo
-$ git pull upstream gh-pages
+git pull upstream gh-pages
 
 # Push to origin master (your remote repo)
-$ git push origin gh-pages
+git push origin gh-pages
 ```
 
 The issue that occured earlier is due to a failure on the merge step (I will investigate this more). A pull is fetch/merge combined, so this will automatically pull all new changes from **my** remote repo into the your local repo. You will then need to push these into origin (which is **your** remote repo) gh-pages. 
