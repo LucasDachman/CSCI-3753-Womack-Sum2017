@@ -36,17 +36,17 @@ There are several ways to get the course content. The easiest, though less versi
 - Ensure you have a Github account. If you don't you can sign up [here](https://github.com/join).
    - Also checkout the [Student Developer Pack](https://education.github.com/pack) if you don't already have it. Some really good stuff here including private repos
    
-- Use the "View on Github" link to the left to view the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
+1. Use the "View on Github" link to the left to view the [repo page](https://github.com/chris-womack/CSCI-3753-Womack-Sum2017) and select fork in the top right hand corner.
 
-- Now we need to clone the repo to your local machine. First open a terminal in the VM
+2. Now we need to clone the repo to your local machine. First open a terminal in the VM
 
-- Type the following to see if git is installed
+3. Type the following to see if git is installed
 
    ```Shell
    $ git
    ```
 
-- If the return looks like this:
+4. If the return looks like this:
 
    ```Shell
    bash: command not found: git
@@ -56,7 +56,7 @@ There are several ways to get the course content. The easiest, though less versi
    $ sudo apt-get install git-all
    ```
 
-- Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
+5. Clone the repo in your home area (*Note:* Change \<GITHUB_USERNAME\> to **your** Github username)
 
    ```Shell
    $ git clone https://github.com/<GITHUB_USERNAME>/CSCI-3753-Womack-Sum2017.git
