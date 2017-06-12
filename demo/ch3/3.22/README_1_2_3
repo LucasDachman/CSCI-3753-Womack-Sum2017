@@ -1,0 +1,13 @@
+To compile on Linux systems, enter
+
+	gcc -lrt -o producer producer.c
+
+	gcc -lrt -o consumer consumer.c
+
+First run the producer which generates the sequence in shared memory:
+
+	./producer
+
+Followed by running the consumer which outputs the sequence:
+
+	./consumer
