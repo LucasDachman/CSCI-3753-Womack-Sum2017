@@ -1,0 +1,13 @@
+lucas.dachman@colorado.edu
+Programming assignment one
+
+compile test with:
+        gcc simple_add_test.c -o simple_add_test
+
+This is a C program which tests the simple_add system call. It gives the ints 1 and 2 to add and prints the result.
+
+locations of each file in the build tree:
+linux-4.4.0/arch/x86/kernel/Simple_add.c
+linux-4.4.0/arch/x86/kernel/Makefile
+linux-4.4.0/arch/x86/syscalls/syscall_64.tbl
+linux-4.4.0/include/linux/syscalls.h 
