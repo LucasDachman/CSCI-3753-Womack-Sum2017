@@ -50,6 +50,7 @@ ssize_t char_driver_read (struct file *pfile, char __user *buffer, size_t length
 	if( copy_to_user(buffer, device_buffer + *offset, length) != 0 ) 
 		return -EFAULT;
 	printk(KERN_ALERT "char_module READ: Data (%lu) copied to user buffer from device buffer.\n", length);
+	printk(KERN_ALERT "char_module READ: offset (%llu)\n", *offset);
 	/* increase the offset by amount written, and return amount written. */
 	*offset += length;
         return length;
@@ -72,6 +73,7 @@ ssize_t char_driver_write (struct file *pfile, const char __user *buffer, size_t
 	if( copy_from_user(device_buffer + *offset, buffer, length) != 0 ) 
 		return -EFAULT;
 	printk(KERN_ALERT "char_module WRITE: Data (%lu) copied from user buffer to device buffer.\n", length);
+	printk(KERN_ALERT "char_module WRITE: offset (%llu)\n", *offset);
 	/* increase the offset by amount written, and return amount written. */
 	*offset += length;
         return length;
