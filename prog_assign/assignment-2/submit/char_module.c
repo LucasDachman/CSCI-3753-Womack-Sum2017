@@ -8,7 +8,7 @@
 #include <linux/fs.h>
 #include <linux/device.h>
 #include <asm/uaccess.h>
-#define BUFFER_SIZE 5
+#define BUFFER_SIZE 1024
 
 
 static int char_driver_init(void);
