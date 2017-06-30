@@ -40,14 +40,15 @@ int main(int argc, char* argv[]) {
 	FILE* output_fp = NULL;
 	int NUM_NAME_FILES = argc-2;
 	int NUM_REQUEST_THREADS = argc-2;
-	queue fname_q;
-	pthread_t request_threads[MAX_RESOLVER_THREADS];
+	queue hostname_q;
+	pthread_t request_threads[NUM_REQUEST_THREADS];
 	int rc;
 	/* End local vars */
 	/* Check Arguments */
 	if( argc < MINARGS ) {
-			perror("Not enough arguments.");
+			fprintf(stderr, "Not enough arguments.\n");
 			fprintf(stderr, "Usage:\n %s %s \n", argv[0], USAGE);
+			return EXIT_FAILURE;
 	}
 
 	/* open output file */
@@ -58,18 +59,18 @@ int main(int argc, char* argv[]) {
 	}
 	
 	/* set up queue */
-	if( queue_init(&fname_q, MAX_RESOLVER_THREADS) == QUEUE_FAILURE ) {
+	if( queue_init(&hostname_q, MAX_RESOLVER_THREADS) == QUEUE_FAILURE ) {
 		perror("queue_init failure!");
 	}
 	struct request_thread_args *req_args;
 
 	/* service name files */
-	for(int i=1; i<NUM_REQUEST_THREADS; i++) {
+	for(int i=0; i<NUM_NAME_FILES; i++) {
 		req_args = (struct request_thread_args *) malloc(sizeof(struct request_thread_args));
-		req_args->q = &fname_q;
-		req_args->filename = argv[i];
+		req_args->q = &hostname_q;
+		req_args->filename = argv[i+1];
 		/* Start request thread */
-		rc = pthread_create(&request_threads[i-1], NULL, &service_name_file, (void *) req_args);
+		rc = pthread_create(&request_threads[i], NULL, &service_name_file, (void *) req_args);
 		if( rc ) 
 			fprintf(stderr, "Failed creating thread [%d], strerror(): %s\n", i-1, strerror(rc));
 	}
@@ -77,7 +78,17 @@ int main(int argc, char* argv[]) {
 
 
 	/* Join Request Threads */
-	for(int i=0; i<NUM_NAME
+	for(int i=0; i<NUM_REQUEST_THREADS; i++) {
+		rc = pthread_join(request_threads[i], NULL);
+		if( rc ) 
+			fprintf(stderr, "pthread_join(%d) returned error: %s\n", i, strerror(rc));
+	}
+	/* ##### TESTING if names are being added to queue ##### 
+	for(int i=0; i<MAX_RESOLVER_THREADS; i++) {
+		char *name = queue_pop(&hostname_q);
+		printf("hostname: %s\n", name);
+	}
+	*/
 }
 
 /* Request thread */
@@ -115,7 +126,7 @@ void *service_name_file(void *args) {
 		/* CRITICAL SECTION ENDS */
 
 	}
-
+	fclose(name_file_ptr);
 	return NULL;
 
 }
