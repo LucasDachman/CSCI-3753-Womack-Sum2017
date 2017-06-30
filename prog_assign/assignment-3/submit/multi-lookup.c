@@ -13,6 +13,7 @@
 #include <errno.h>
 #include <pthread.h>
 #include <unistd.h>
+#include <stdbool.h>
 
 #include "util.h" //dns lookup 
 #include "queue.h" //FIFO queue
@@ -44,11 +45,18 @@ struct resolver_thread_args {
 pthread_cond_t q_has_item;
 pthread_mutex_t q_lock;
 pthread_mutex_t output_file_lock;
+pthread_mutex_t finished_requests_lock;
+bool finished_requests = 0;
 
 
 int main(int argc, char* argv[]) {
 
+	/* pthread init stuff */
 	pthread_cond_init(&q_has_item, NULL);
+	pthread_mutex_init(&q_lock, NULL);
+	pthread_mutex_init(&output_file_lock, NULL);
+	pthread_mutex_init(&finished_requests_lock, NULL);
+
 	/* Begin local vars */
 	FILE* output_fp = NULL;
 	int NUM_NAME_FILES = argc-2;
@@ -58,6 +66,7 @@ int main(int argc, char* argv[]) {
 	pthread_t resolver_threads[MAX_RESOLVER_THREADS];
 	int rc;
 	/* End local vars */
+
 	/* Check Arguments */
 	if( argc < MINARGS ) {
 			fprintf(stderr, "Not enough arguments.\n");
@@ -107,6 +116,12 @@ int main(int argc, char* argv[]) {
 			fprintf(stderr,
 					"pthread_join(%d) (request thread) returned error: %s\n", i, strerror(rc));
 	}
+	/* All request threads are finished.
+	 * signal resolver threads to stop popping off queue
+	 */
+	pthread_mutex_lock(&finished_requests_lock);
+	finished_requests = 1;
+	pthread_mutex_unlock(&finished_requests_lock);
 
 	/* Join Resolver Threads */
 	for(int i=0; i<MAX_RESOLVER_THREADS; i++) {
@@ -183,17 +198,25 @@ void *process_host_names(void *args) {
 	res_args = (struct resolver_thread_args *) args;
 	queue *q = res_args->q;
 	FILE * fileptr = res_args->fileptr;
-	while(1) {	
+	pthread_mutex_lock(&finished_requests_lock);
+	while( !finished_requests ) {	
 		/* aquire queue lock */
 		pthread_mutex_lock(&q_lock);
 		/* wait for signal that q is not empty */
-		while( queue_is_empty(q) ) 
-			pthread_cond_wait(&q_has_item, &q_lock);
+		while( queue_is_empty(q) && !finished_requests) {
+			pthread_mutex_unlock(&finished_requests_lock);
+			pthread_mutex_unlock(&q_lock);
+			usleep(100);
+			pthread_mutex_lock(&finished_requests_lock);
+			pthread_mutex_lock(&q_lock);
+			//pthread_cond_wait(&q_has_item, &q_lock);
+		}
+		pthread_mutex_unlock(&finished_requests_lock);
 		/* lookup hostname and get IP string */
 		char *hostname = queue_pop(q);
 		/* release queue lock */
 		pthread_mutex_unlock(&q_lock);
-		if( dnslookup(hostname, ipstr, sizeof(ipstr) == UTIL_FAILURE) ) {
+		if( dnslookup(hostname, ipstr, sizeof(ipstr)) == UTIL_FAILURE ) {
 			fprintf(stderr, "dnslookup error: %s\n", hostname);
 			strncpy(ipstr, "", sizeof(ipstr));
 		}
@@ -203,10 +226,12 @@ void *process_host_names(void *args) {
 		fprintf(fileptr, "%s,%s\n", hostname, ipstr);
 		/* release output file lock */
 		pthread_mutex_unlock(&output_file_lock);
+
+		pthread_mutex_lock(&finished_requests_lock);
 	}	
+	pthread_mutex_unlock(&finished_requests_lock);
 	
 	pthread_exit(NULL);
 
 }
-
 
