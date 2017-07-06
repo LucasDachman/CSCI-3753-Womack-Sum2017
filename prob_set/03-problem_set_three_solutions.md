@@ -256,6 +256,7 @@
    }
    ```
    This happens a third time at which point the bathroom will look like this: (each M is 1 male, and each F is 1 female)
+   
    | Bathroom | Waiting Queue |
    |:---:|:---:|
    | MMM |  |
@@ -288,6 +289,7 @@
    }
    ```
    The man will hit the `m_cond.wait()` condition variable and wait for a man to exit the bathroom and exit. So at this point the bathroom looks like this:
+   
    | Bathroom | Waiting Queue |
    |:---:|:---:|
    | MMM | M |
@@ -355,6 +357,7 @@
    }
    ```
    Once the `f_cond.wait()` at line 8 is executed the method will block and the woman will be waiting in the queue:
+   
    | Bathroom | Waiting Queue |
    |:---:|:---:|
    | MMM | F |
