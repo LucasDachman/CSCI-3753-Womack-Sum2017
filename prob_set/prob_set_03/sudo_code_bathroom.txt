@@ -1,0 +1,11 @@
+male()
+
+	if no females && no females waiting
+	use bathroom
+
+
+
+female()
+
+	if no males && no males waiting
+	use bathroom

@@ -21,7 +21,7 @@
 #define MINARGS 3
 #define USAGE "<unputFilePath> <outputFlePath>"
 
-#define MAX_RESOLVER_THREADS 10
+#define MAX_RESOLVER_THREADS_old 10
 #define MIN_RESOLVER_THREADS 2
 #define MAX_NAME_LENGTH 1024
 #define HOST_NAME_FORMAT "%1024s"
@@ -41,6 +41,8 @@ struct resolver_thread_args {
 	FILE * fileptr;
 };
 
+int MAX_RESOLVER_THREADS = 10;
+
 /* Synchronization stuff */
 pthread_cond_t q_has_item;
 pthread_mutex_t q_lock;
@@ -50,6 +52,10 @@ bool finished_requests = 0;
 
 
 int main(int argc, char* argv[]) {
+
+	/* Find number of processor cores to set MAX_RESOLVER_THREADS */
+	MAX_RESOLVER_THREADS = sysconf(_SC_NPROCESSORS_ONLN) * 2;
+	fprintf(stdout, "MAX_RESOLVER_THREADS = %d\n", MAX_RESOLVER_THREADS);
 
 	/* pthread init stuff */
 	pthread_cond_init(&q_has_item, NULL);
@@ -133,12 +139,6 @@ int main(int argc, char* argv[]) {
 	}
 	fclose(output_fp);
 
-	/* ##### TESTING if names are being added to queue ##### 
-	for(int i=0; i<MAX_RESOLVER_THREADS; i++) {
-		char *name = queue_pop(&hostname_q);
-		printf("hostname: %s\n", name);
-	}
-	*/
 }
 
 /* Request thread */

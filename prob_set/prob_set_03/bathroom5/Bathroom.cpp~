@@ -1,0 +1,27 @@
+#include <iostream>
+#include <stdio.h>
+
+#include "Bathroom.cpp"
+
+using namespace std;
+
+Bathroom::Bathroom(int capacity) {
+
+}
+
+void Bathroom::m_request_bathroom() {
+
+}
+
+void Bathroom::m_use_bathroom() {
+
+}
+
+void Bathroom::f_request_bathroom() {
+
+}
+
+void Bathroom::f_use_bathroom() {
+
+}
+

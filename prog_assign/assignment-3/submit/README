@@ -1,0 +1,13 @@
+Lucas Dachman
+Programming Assignment 3
+
+compile:
+	make multi-lookup
+
+run:
+	./multi-lookup input/names*.txt results.txt
+or
+	./multi-lookup <input_files> <output_file>
+
+clean:
+	make clean
