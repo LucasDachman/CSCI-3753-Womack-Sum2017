@@ -24,42 +24,58 @@
 #include <fcntl.h>
 #include <string.h>
 #include <sys/types.h>
-#include <sys/stat.h>
-#include <sys/wait.h>
 
 /* Local Defines */
 #define MAXFILENAMELENGTH 80
-#define DEFAULT_INPUTFILENAME "rwinput"
+#define DEFAULT_INPUTFILENAME "/dev/urandom"
 #define DEFAULT_OUTPUTFILENAMEBASE "rwoutput"
+#define DEFAULT_OUTPUTFILENAME "/dev/null"
 #define DEFAULT_BLOCKSIZE 1024
 #define DEFAULT_TRANSFERSIZE 1024*100
-#define DEFAULT_NUM_PROC 1
-#define USAGE "<transfersize> <blocksize> <inputfilename> <outputfilenameBase> <num proc>"
-
-/* function declarations */
-void write_to_file();
+#define USAGE "<transfersize> <blocksize> <inputfilename> <outputfilenameBase>"
 
 /* Global Variables */
-char outputFilenameBase[MAXFILENAMELENGTH];
-char inputFilename[MAXFILENAMELENGTH];
-int inputFD;
-ssize_t buffersize;
-ssize_t blocksize = 0;
-ssize_t transfersize = 0;
-char *transferBuffer = NULL;
-
 int main(int argc, char *argv[])
 {
 
-	int i, pid, NUM_PROC;
+	char inputFilename[MAXFILENAMELENGTH];
+	char outputFilename[MAXFILENAMELENGTH];
+	int inputFD;
+	ssize_t buffersize;
+	ssize_t blocksize = 0;
+	ssize_t transfersize = 0;
+	char *transferBuffer = NULL;
+
+	int rv;
+	int outputFD;
+
+	char tempName[MAXFILENAMELENGTH];
+	ssize_t bytesRead = 0;
+	ssize_t totalBytesRead = 0;
+	int totalReads = 0;
+	ssize_t bytesWritten = 0;
+	ssize_t totalBytesWritten = 0;
+	int totalWrites = 0;
+	int inputFileResets = 0;
 
 	/* Process program arguments to select run-time parameters */
 	/* check params */
-	if (argc < 5) {
+	if( argc > 1 && strcmp(argv[1], "-h") == 0 ) {
+		fprintf(stdout,"Use -1 to set a parameter to its default.\n"
+					   "defaults:\n"
+					   "transfersize: %d\n"
+					   "blocksize: %d\n"
+					   "inputfilename: %s\n"
+					   "outputfilename: %s\n",
+					   DEFAULT_TRANSFERSIZE, DEFAULT_BLOCKSIZE, DEFAULT_INPUTFILENAME,
+					   DEFAULT_OUTPUTFILENAME);
+
+	}
+	if (argc < 4) {
 		printf("USAGE: %s %s\n", argv[0], USAGE);
+		printf("%s -h for hep\n", argv[0]);
 		exit(EXIT_FAILURE);
 	}
-	
 
 	/* Set supplied transfer size or default if not supplied */
 	transfersize = atol(argv[1]);
@@ -90,17 +106,10 @@ int main(int argc, char *argv[])
 		fprintf(stderr, "Output filename base is too long\n");
 		exit(EXIT_FAILURE);
 	}
-	strncpy(outputFilenameBase, argv[4], MAXFILENAMELENGTH);
-	if (strcmp(outputFilenameBase, "-1") == 0) {
-		strncpy(outputFilenameBase, DEFAULT_OUTPUTFILENAMEBASE,MAXFILENAMELENGTH);
-		printf("Output Filename Base set to default: %s\n", outputFilenameBase);
-	}
-
-	/* set NUM_PROC */
-	NUM_PROC = atoi(argv[5]);
-	if (NUM_PROC < 1) {
-		NUM_PROC = DEFAULT_NUM_PROC;
-	    printf("Number of Processes set to default: %d\n", NUM_PROC);
+	strncpy(outputFilename, argv[4], MAXFILENAMELENGTH);
+	if (strcmp(outputFilename, "-1") == 0) {
+		strncpy(outputFilename, DEFAULT_OUTPUTFILENAME,MAXFILENAMELENGTH);
+		printf("Output Filename set to default: %s\n", outputFilename);
 	}
 
 	/* Confirm blocksize is multiple of and less than transfersize */
@@ -126,67 +135,23 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 
-	/* create NUM_PROC processes with fork */
-	for (i=0; i<NUM_PROC; i++) {
-		pid = fork();
-	
-		if( pid < 0 ) {
-			// error forking
-			perror("Error forking: ");
-		}
-		else if( pid == 0 ) {
-			// child code
-			// CALL WRITETOFILE
-			write_to_file();
-			break;
-		}
-	}
-	if (pid > 0) {
-		// parent code
-		// wait for chilren to finish		
-		int wstatus;
-		for( i=0; i<NUM_PROC; i++ ) {
-			if( wait(&wstatus) == -1 ) {
-				perror("Error waiting: ");
-			}
+	/* set outputfile name */
+	strcpy(tempName, outputFilename);
+	if (strcmp(outputFilename, DEFAULT_OUTPUTFILENAME) != 0) {
+		rv = snprintf(outputFilename, MAXFILENAMELENGTH, "%s-%d",
+				  tempName, getpid());
+		
+		if (rv > MAXFILENAMELENGTH) {
+			fprintf(stderr,
+					"Output filenmae length exceeds limit of %d characters.\n",
+					MAXFILENAMELENGTH);
+			exit(EXIT_FAILURE);
+		} else if (rv < 0) {
+			perror("Failed to generate output filename");
+			exit(EXIT_FAILURE);
 		}
 	}
-	
-	/* Close Input File Descriptor */
-	if (close(inputFD)) {
-		perror("Failed to close input file");
-		exit(EXIT_FAILURE);
-	}
-
-	return EXIT_SUCCESS;
-}
-
-void write_to_file() {
-
-	int rv;
-	int outputFD;
-	char outputFilename[MAXFILENAMELENGTH];
-
-	ssize_t bytesRead = 0;
-	ssize_t totalBytesRead = 0;
-	int totalReads = 0;
-	ssize_t bytesWritten = 0;
-	ssize_t totalBytesWritten = 0;
-	int totalWrites = 0;
-	int inputFileResets = 0;
-
 	/* Open Output File Descriptor in Write Only mode with standard permissions */
-	rv = snprintf(outputFilename, MAXFILENAMELENGTH, "%s-%d",
-				  outputFilenameBase, getpid());
-	if (rv > MAXFILENAMELENGTH) {
-		fprintf(stderr,
-				"Output filenmae length exceeds limit of %d characters.\n",
-				MAXFILENAMELENGTH);
-		exit(EXIT_FAILURE);
-	} else if (rv < 0) {
-		perror("Failed to generate output filename");
-		exit(EXIT_FAILURE);
-	}
 	if ((outputFD =
 		 open(outputFilename,
 			  O_WRONLY | O_CREAT | O_TRUNC | O_SYNC,
@@ -236,7 +201,7 @@ void write_to_file() {
 
 	/* Output some possibly helpfull info to make it seem like we were doing stuff */
 	fprintf(stdout, "\n");
-	fprintf(stdout, "pid:\t\t%d\n", getpid());
+	fprintf(stdout, "outputfile:\t%s\n", outputFilename);
 	fprintf(stdout, "Read:\t\t%zd bytes in %d reads\n",
 			totalBytesRead, totalReads);
 	fprintf(stdout, "Written:\t%zd bytes in %d writes\n",
@@ -254,6 +219,18 @@ void write_to_file() {
 		perror("Failed to close output file");
 		exit(EXIT_FAILURE);
 	}
+	
+	/* Close Input File Descriptor */
+	if (close(inputFD)) {
+		perror("Failed to close input file");
+		exit(EXIT_FAILURE);
+	}
+
+	return EXIT_SUCCESS;
+}
+
+void write_to_file() {
+
 
 
 }
