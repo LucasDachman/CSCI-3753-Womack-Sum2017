@@ -5,6 +5,7 @@
 #include <sched.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <sys/resource.h>
 
 #define USAGE "<Scheduling Policy> <Number of Processes>"
 #define IO_BOUND_FILENAME "./rw"
@@ -14,6 +15,7 @@
 void runIOBound();
 void runCPUBound();
 void runMixed();
+void print_rusage_info(struct rusage *rusage, int pid);
 
 /* global vars */
 int NUM_PROC, pid;
@@ -75,7 +77,7 @@ int main(int argc, char * argv[]) {
 void runIOBound() {
 
 	int i;
-	char *const IO_args[] = {IO_BOUND_FILENAME, "-1", "-1", "-1", "-1", 0};
+	char *const IO_args[] = {IO_BOUND_FILENAME, "-1", "-1", "-1", "rwoutput", 0};
 	printf("Staring IO Bound test...\n");
 
 	/* create NUM_PROC processes with fork */
@@ -96,10 +98,14 @@ void runIOBound() {
 	if( pid > 0 ) {
 		// parent code
 		// wait for chilren to finish		
-		int wstatus;
+		int wstatus, rv;
+		struct rusage rusage;
 		for( i=0; i<NUM_PROC; i++ ) {
-			if( wait(&wstatus) == -1 ) {
+			rv = wait3(&wstatus, 0, &rusage);
+			if( rv == -1 ) {
 				perror("Error waiting: ");
+			} else {
+				print_rusage_info(&rusage, rv);
 			}
 		}
 		printf("Finished IO Bound test.\n\n");
@@ -131,13 +137,31 @@ void runCPUBound() {
 	if( pid > 0 ) {
 		// parent code
 		// wait for chilren to finish		
-		int wstatus;
+		int wstatus, rv;
+		struct rusage rusage;
 		for( i=0; i<NUM_PROC; i++ ) {
-			if( wait(&wstatus) == -1 ) {
+			rv = wait3(&wstatus, 0, &rusage);
+			if( rv == -1 ) {
 				perror("Error waiting: ");
+			} else {
+				print_rusage_info(&rusage, rv);
 			}
 		}
 		printf("Finished CPU Bound test...\n\n");
 	}
+
+}
+
+void print_rusage_info(struct rusage *rusage, int pid) {
+
+	printf("##### rusage for pid=%d #####\n", pid);
+	printf("User Time: %ld.%ld\n", rusage->ru_utime.tv_sec, rusage->ru_utime.tv_usec);
+	printf("CPU Time: %ld.%ld\n", rusage->ru_stime.tv_sec, rusage->ru_stime.tv_usec);
+	printf("Full Swaps: %ld\n", rusage->ru_nswap);
+	printf("FS Read from Disk: %ld\n", rusage->ru_inblock);
+	printf("FS Write to Disk: %ld\n", rusage->ru_oublock);
+	printf("Voluntary Context Switches: %ld\n", rusage->ru_nvcsw);
+	printf("Involuntary Context Switches: %ld\n", rusage->ru_nivcsw);
+	return;
 
 }
