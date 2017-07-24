@@ -40,9 +40,9 @@ int main(int argc, char * argv[]) {
     for(i=0; i<iterations; i++){
 		x = (random() % (RADIUS * 2)) - RADIUS;
 		y = (random() % (RADIUS * 2)) - RADIUS;
-	if(zeroDist(x,y) < RADIUS){
-	    inCircle++;
-	}
+		if(zeroDist(x,y) < RADIUS){
+			inCircle++;
+		}
 		inSquare++;
     }
 

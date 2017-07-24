@@ -1,0 +1,2429 @@
+Staring IO Bound test...
+##### rusage for pid=26022 #####
+User Time: 0.000000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 1
+##### rusage for pid=26023 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 24
+##### rusage for pid=26024 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 7
+##### rusage for pid=26025 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 4
+##### rusage for pid=26026 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 1
+##### rusage for pid=26027 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 155
+##### rusage for pid=26028 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 7
+##### rusage for pid=26029 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 2
+##### rusage for pid=26030 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 29
+##### rusage for pid=26031 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 21
+##### rusage for pid=26032 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 33
+##### rusage for pid=26033 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 2
+##### rusage for pid=26034 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 33
+##### rusage for pid=26035 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 35
+##### rusage for pid=26037 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 8
+##### rusage for pid=26038 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 98
+##### rusage for pid=26039 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 18
+##### rusage for pid=26040 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 29
+##### rusage for pid=26041 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 73
+##### rusage for pid=26042 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 23
+##### rusage for pid=26043 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 34
+##### rusage for pid=26044 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 11
+##### rusage for pid=26045 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 26
+##### rusage for pid=26046 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 24
+##### rusage for pid=26047 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 2
+##### rusage for pid=26048 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 61
+##### rusage for pid=26049 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 9
+##### rusage for pid=26050 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 41
+##### rusage for pid=26051 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 28
+##### rusage for pid=26052 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 35
+##### rusage for pid=26053 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 20
+##### rusage for pid=26054 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 33
+##### rusage for pid=26055 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 41
+##### rusage for pid=26056 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 20
+##### rusage for pid=26057 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 12
+##### rusage for pid=26058 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 16
+##### rusage for pid=26059 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 32
+##### rusage for pid=26060 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 35
+##### rusage for pid=26061 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 28
+##### rusage for pid=26062 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 37
+##### rusage for pid=26063 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 22
+##### rusage for pid=26064 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 67
+##### rusage for pid=26065 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 9
+##### rusage for pid=26066 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 87
+##### rusage for pid=26067 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 28
+##### rusage for pid=26068 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 22
+##### rusage for pid=26069 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 10
+Involuntary Context Switches: 12
+##### rusage for pid=26070 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 27
+##### rusage for pid=26071 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 19
+##### rusage for pid=26072 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 17
+##### rusage for pid=26073 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 28
+##### rusage for pid=26074 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 15
+##### rusage for pid=26075 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 13
+##### rusage for pid=26076 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 24
+##### rusage for pid=26077 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 33
+##### rusage for pid=26078 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 37
+##### rusage for pid=26079 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 17
+##### rusage for pid=26080 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 36
+##### rusage for pid=26081 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 28
+##### rusage for pid=26082 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 34
+##### rusage for pid=26083 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 25
+##### rusage for pid=26084 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 10
+Involuntary Context Switches: 28
+##### rusage for pid=26085 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 4
+##### rusage for pid=26086 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 9
+Involuntary Context Switches: 58
+##### rusage for pid=26087 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 38
+##### rusage for pid=26088 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 16
+##### rusage for pid=26089 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 23
+##### rusage for pid=26090 #####
+User Time: 0.000000
+CPU Time: 0.040000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 18
+##### rusage for pid=26091 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 30
+##### rusage for pid=26092 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 15
+##### rusage for pid=26093 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 35
+##### rusage for pid=26094 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 44
+##### rusage for pid=26095 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 178
+##### rusage for pid=26096 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 165
+##### rusage for pid=26097 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 9
+Involuntary Context Switches: 75
+##### rusage for pid=26098 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 214
+##### rusage for pid=26099 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 21
+##### rusage for pid=26100 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 50
+##### rusage for pid=26101 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 156
+##### rusage for pid=26102 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 9
+Involuntary Context Switches: 29
+##### rusage for pid=26103 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 9
+Involuntary Context Switches: 46
+##### rusage for pid=26104 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 12
+Involuntary Context Switches: 16
+##### rusage for pid=26105 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 9
+Involuntary Context Switches: 40
+##### rusage for pid=26106 #####
+User Time: 0.000000
+CPU Time: 0.048000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 40
+##### rusage for pid=26107 #####
+User Time: 0.000000
+CPU Time: 0.052000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 27
+##### rusage for pid=26108 #####
+User Time: 0.000000
+CPU Time: 0.044000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 33
+##### rusage for pid=26109 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 23
+##### rusage for pid=26110 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26111 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 42
+##### rusage for pid=26112 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 57
+##### rusage for pid=26113 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26114 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 52
+##### rusage for pid=26115 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 16
+##### rusage for pid=26118 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 4
+##### rusage for pid=26116 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 82
+##### rusage for pid=26117 #####
+User Time: 0.000000
+CPU Time: 0.036000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 70
+##### rusage for pid=26122 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 21
+##### rusage for pid=26123 #####
+User Time: 0.000000
+CPU Time: 0.032000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 24
+##### rusage for pid=26124 #####
+User Time: 0.000000
+CPU Time: 0.028000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 29
+##### rusage for pid=26119 #####
+User Time: 0.000000
+CPU Time: 0.024000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 3
+Finished IO Bound test.
+
+Staring CPU Bound test...
+##### rusage for pid=26125 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 3
+##### rusage for pid=26126 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 21
+##### rusage for pid=26127 #####
+User Time: 0.072000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 14
+##### rusage for pid=26128 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 5
+Involuntary Context Switches: 33
+##### rusage for pid=26129 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 11
+##### rusage for pid=26130 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 5
+##### rusage for pid=26131 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 2
+##### rusage for pid=26132 #####
+User Time: 0.068000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 96
+##### rusage for pid=26133 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 24
+##### rusage for pid=26134 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 5
+##### rusage for pid=26135 #####
+User Time: 0.068000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 12
+##### rusage for pid=26136 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 6
+##### rusage for pid=26137 #####
+User Time: 0.060000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 10
+##### rusage for pid=26140 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 17
+##### rusage for pid=26141 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 37
+##### rusage for pid=26142 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26143 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 5
+Involuntary Context Switches: 59
+##### rusage for pid=26144 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 17
+##### rusage for pid=26145 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 3
+##### rusage for pid=26146 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 9
+##### rusage for pid=26147 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 5
+##### rusage for pid=26148 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26149 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 46
+##### rusage for pid=26150 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 48
+##### rusage for pid=26151 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26152 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 9
+##### rusage for pid=26153 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 5
+##### rusage for pid=26154 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 4
+##### rusage for pid=26155 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 12
+##### rusage for pid=26156 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 23
+##### rusage for pid=26157 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 50
+##### rusage for pid=26158 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26159 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 14
+##### rusage for pid=26160 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 20
+##### rusage for pid=26161 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 10
+##### rusage for pid=26162 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 12
+##### rusage for pid=26163 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 12
+##### rusage for pid=26164 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 41
+##### rusage for pid=26165 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 39
+##### rusage for pid=26166 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 14
+##### rusage for pid=26167 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 25
+##### rusage for pid=26168 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 11
+##### rusage for pid=26169 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 175
+##### rusage for pid=26170 #####
+User Time: 0.076000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26171 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 5
+Involuntary Context Switches: 11
+##### rusage for pid=26172 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 60
+##### rusage for pid=26173 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 57
+##### rusage for pid=26174 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26175 #####
+User Time: 0.088000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26176 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 350
+##### rusage for pid=26177 #####
+User Time: 0.068000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 4
+##### rusage for pid=26178 #####
+User Time: 0.060000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 6
+##### rusage for pid=26179 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 36
+##### rusage for pid=26180 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 39
+##### rusage for pid=26181 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 17
+##### rusage for pid=26182 #####
+User Time: 0.068000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 7
+##### rusage for pid=26183 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 37
+##### rusage for pid=26184 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26185 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 9
+##### rusage for pid=26186 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 41
+##### rusage for pid=26187 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 14
+##### rusage for pid=26188 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26189 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 7
+##### rusage for pid=26190 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 14
+##### rusage for pid=26191 #####
+User Time: 0.064000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 14
+##### rusage for pid=26192 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 35
+##### rusage for pid=26193 #####
+User Time: 0.072000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26194 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 9
+##### rusage for pid=26195 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 13
+##### rusage for pid=26196 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 24
+##### rusage for pid=26197 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 29
+##### rusage for pid=26198 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 32
+##### rusage for pid=26199 #####
+User Time: 0.076000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 10
+##### rusage for pid=26200 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 5
+##### rusage for pid=26201 #####
+User Time: 0.072000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 6
+##### rusage for pid=26202 #####
+User Time: 0.080000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 13
+##### rusage for pid=26203 #####
+User Time: 0.092000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 47
+##### rusage for pid=26204 #####
+User Time: 0.096000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 162
+##### rusage for pid=26205 #####
+User Time: 0.100000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 9
+##### rusage for pid=26206 #####
+User Time: 0.104000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 10
+##### rusage for pid=26207 #####
+User Time: 0.116000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 32
+##### rusage for pid=26208 #####
+User Time: 0.116000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26209 #####
+User Time: 0.124000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 10
+##### rusage for pid=26210 #####
+User Time: 0.132000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 135
+##### rusage for pid=26211 #####
+User Time: 0.144000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 16
+##### rusage for pid=26213 #####
+User Time: 0.140000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 64
+##### rusage for pid=26215 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 8
+##### rusage for pid=26212 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 11
+##### rusage for pid=26217 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 20
+##### rusage for pid=26214 #####
+User Time: 0.144000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 15
+##### rusage for pid=26218 #####
+User Time: 0.160000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 51
+##### rusage for pid=26216 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 205
+##### rusage for pid=26221 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 25
+##### rusage for pid=26220 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 11
+##### rusage for pid=26219 #####
+User Time: 0.140000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 15
+##### rusage for pid=26223 #####
+User Time: 0.132000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 14
+##### rusage for pid=26222 #####
+User Time: 0.128000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 25
+##### rusage for pid=26225 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 41
+##### rusage for pid=26224 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 28
+##### rusage for pid=26226 #####
+User Time: 0.120000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 10
+Finished CPU Bound test...
+
+Staring Mixed test...
+##### rusage for pid=26227 #####
+User Time: 0.148000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 139
+##### rusage for pid=26228 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 323
+##### rusage for pid=26229 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 119
+##### rusage for pid=26230 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 134
+##### rusage for pid=26231 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 64
+##### rusage for pid=26232 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 119
+##### rusage for pid=26233 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 35
+##### rusage for pid=26234 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 40
+##### rusage for pid=26235 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 62
+##### rusage for pid=26236 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 9
+Involuntary Context Switches: 273
+##### rusage for pid=26237 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 137
+##### rusage for pid=26238 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 112
+##### rusage for pid=26239 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 73
+##### rusage for pid=26240 #####
+User Time: 0.156000
+CPU Time: 0.012000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 35
+##### rusage for pid=26241 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 104
+##### rusage for pid=26242 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 261
+##### rusage for pid=26243 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 44
+##### rusage for pid=26244 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 43
+##### rusage for pid=26245 #####
+User Time: 0.168000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 213
+##### rusage for pid=26246 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 63
+##### rusage for pid=26247 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 68
+##### rusage for pid=26248 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 36
+##### rusage for pid=26249 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 8
+Involuntary Context Switches: 39
+##### rusage for pid=26250 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 41
+##### rusage for pid=26251 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 70
+##### rusage for pid=26252 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 44
+##### rusage for pid=26253 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 39
+##### rusage for pid=26254 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 46
+##### rusage for pid=26255 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 40
+##### rusage for pid=26256 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 38
+##### rusage for pid=26257 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 42
+##### rusage for pid=26258 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 39
+##### rusage for pid=26259 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 36
+##### rusage for pid=26260 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 47
+##### rusage for pid=26261 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 36
+##### rusage for pid=26262 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 58
+##### rusage for pid=26263 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 59
+##### rusage for pid=26264 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 51
+##### rusage for pid=26265 #####
+User Time: 0.168000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 38
+##### rusage for pid=26266 #####
+User Time: 0.180000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 45
+##### rusage for pid=26267 #####
+User Time: 0.152000
+CPU Time: 0.016000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 33
+##### rusage for pid=26268 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 47
+##### rusage for pid=26269 #####
+User Time: 0.168000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 39
+##### rusage for pid=26270 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 31
+##### rusage for pid=26271 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 35
+##### rusage for pid=26272 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 40
+##### rusage for pid=26273 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 36
+##### rusage for pid=26274 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 45
+##### rusage for pid=26275 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 47
+##### rusage for pid=26276 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 39
+##### rusage for pid=26277 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 53
+##### rusage for pid=26278 #####
+User Time: 0.156000
+CPU Time: 0.012000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 41
+##### rusage for pid=26279 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 55
+##### rusage for pid=26280 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 53
+##### rusage for pid=26281 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 33
+##### rusage for pid=26282 #####
+User Time: 0.176000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 40
+##### rusage for pid=26283 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 57
+##### rusage for pid=26284 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 56
+##### rusage for pid=26285 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 64
+##### rusage for pid=26286 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 36
+##### rusage for pid=26287 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 96
+##### rusage for pid=26288 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 54
+##### rusage for pid=26289 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 34
+##### rusage for pid=26290 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 64
+##### rusage for pid=26291 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 59
+##### rusage for pid=26292 #####
+User Time: 0.160000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 101
+##### rusage for pid=26293 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 44
+##### rusage for pid=26294 #####
+User Time: 0.160000
+CPU Time: 0.012000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 57
+##### rusage for pid=26295 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 1
+Involuntary Context Switches: 129
+##### rusage for pid=26296 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 57
+##### rusage for pid=26297 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 164
+##### rusage for pid=26298 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 39
+##### rusage for pid=26299 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 49
+##### rusage for pid=26300 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 55
+##### rusage for pid=26301 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 4
+Involuntary Context Switches: 38
+##### rusage for pid=26302 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 44
+##### rusage for pid=26303 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 178
+##### rusage for pid=26304 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 38
+##### rusage for pid=26305 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 49
+##### rusage for pid=26306 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 32
+##### rusage for pid=26307 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 48
+##### rusage for pid=26308 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 49
+##### rusage for pid=26309 #####
+User Time: 0.168000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 28
+##### rusage for pid=26310 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 56
+##### rusage for pid=26311 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 66
+##### rusage for pid=26317 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 39
+##### rusage for pid=26314 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 135
+##### rusage for pid=26315 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 29
+##### rusage for pid=26312 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 78
+##### rusage for pid=26316 #####
+User Time: 0.164000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 25
+##### rusage for pid=26313 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 51
+##### rusage for pid=26318 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 169
+##### rusage for pid=26321 #####
+User Time: 0.160000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 181
+##### rusage for pid=26319 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 28
+##### rusage for pid=26322 #####
+User Time: 0.156000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 157
+##### rusage for pid=26324 #####
+User Time: 0.148000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 59
+##### rusage for pid=26320 #####
+User Time: 0.168000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 7
+Involuntary Context Switches: 34
+##### rusage for pid=26323 #####
+User Time: 0.160000
+CPU Time: 0.004000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 2
+Involuntary Context Switches: 22
+##### rusage for pid=26325 #####
+User Time: 0.152000
+CPU Time: 0.000000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 3
+Involuntary Context Switches: 156
+##### rusage for pid=26326 #####
+User Time: 0.132000
+CPU Time: 0.008000
+Full Swaps: 0
+FS Read from Disk: 0
+FS Write to Disk: 0
+Voluntary Context Switches: 6
+Involuntary Context Switches: 160
+Finished Mixed test...
+
+
+################################################################################
+Output Filename:	output-3/sched-other-output-100
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        4.088000            0.016000            0.388000            
+User Time:          0.000000            8.960000            16.340000           
+Total Time:         4.088000            8.976000            16.728000           
+Average Time:       0.040880            0.089760            0.167280            
+Voluntary
+Context Switches:   695                 604                 336                 
+Average Voluntary
+Context Switches:   6.950000            6.040000            3.360000            
+Involuntary
+Context Switches:   3584                2900                7136                
+Average Involuntary
+Context Switches:   35.840000           29.000000           71.360000           
+################################################################################

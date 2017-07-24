@@ -1,0 +1,10 @@
+compile:
+	make
+run:
+	./run_benchmarks.sh <output dir>
+or
+	./benchmark_avgs.sh
+to run all tests three times and output to three different directories.
+
+all output will be in the specified output directory and a collection of
+tables will be in the file 'table_data'

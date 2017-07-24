@@ -1,0 +1,174 @@
+100 processes:
+################################################################################
+Output Filename:	output-3/sched-other-output-100
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        4.088000            0.016000            0.388000            
+User Time:          0.000000            8.960000            16.340000           
+Total Time:         4.088000            8.976000            16.728000           
+Average Time:       0.040880            0.089760            0.167280            
+Voluntary
+Context Switches:   695                 604                 336                 
+Average Voluntary
+Context Switches:   6.950000            6.040000            3.360000            
+Involuntary
+Context Switches:   3584                2900                7136                
+Average Involuntary
+Context Switches:   35.840000           29.000000           71.360000           
+################################################################################
+################################################################################
+Output Filename:	output-3/sched-fifo-output-100
+Scheduling Policy:	SCHED_FIFO
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        3.392000            0.000000            0.280000            
+User Time:          0.008000            6.756000            7.688000            
+Total Time:         3.400000            6.756000            7.968000            
+Average Time:       0.034000            0.067560            0.079680            
+Voluntary
+Context Switches:   702                 702                 702                 
+Average Voluntary
+Context Switches:   7.020000            7.020000            7.020000            
+Involuntary
+Context Switches:   2                   4                   6                   
+Average Involuntary
+Context Switches:   0.020000            0.040000            0.060000            
+################################################################################
+################################################################################
+Output Filename:	output-3/sched-rr-output-100
+Scheduling Policy:	SCHED_RR
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        3.648000            0.004000            0.300000            
+User Time:          0.024000            6.672000            7.536000            
+Total Time:         3.672000            6.676000            7.836000            
+Average Time:       0.036720            0.066760            0.078360            
+Voluntary
+Context Switches:   701                 702                 700                 
+Average Voluntary
+Context Switches:   7.010000            7.020000            7.000000            
+Involuntary
+Context Switches:   4                   9                   21                  
+Average Involuntary
+Context Switches:   0.040000            0.090000            0.210000            
+################################################################################
+1000 processes:\n
+################################################################################
+Output Filename:	output-3/sched-other-output-1000
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	1000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        50.524000           0.024000            3.008000            
+User Time:          0.100000            91.956000           100.080000          
+Total Time:         50.624000           91.980000           103.088000          
+Average Time:       0.050624            0.091980            0.103088            
+Voluntary
+Context Switches:   4120                2814                2926                
+Average Voluntary
+Context Switches:   4.120000            2.814000            2.926000            
+Involuntary
+Context Switches:   35045               22832               36719               
+Average Involuntary
+Context Switches:   35.045000           22.832000           36.719000           
+################################################################################
+################################################################################
+Output Filename:	output-3/sched-fifo-output-1000
+Scheduling Policy:	SCHED_FIFO
+Number of Processes:	1000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        38.756000           0.016000            2.476000            
+User Time:          0.096000            84.360000           77.448000           
+Total Time:         38.852000           84.376000           79.924000           
+Average Time:       0.038852            0.084376            0.079924            
+Voluntary
+Context Switches:   7013                7015                7018                
+Average Voluntary
+Context Switches:   7.013000            7.015000            7.018000            
+Involuntary
+Context Switches:   57                  92                  96                  
+Average Involuntary
+Context Switches:   0.057000            0.092000            0.096000            
+################################################################################
+################################################################################
+Output Filename:	output-3/sched-rr-output-1000
+Scheduling Policy:	SCHED_RR
+Number of Processes:	1000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        40.336000           0.004000            2.892000            
+User Time:          0.100000            80.812000           91.320000           
+Total Time:         40.436000           80.816000           94.212000           
+Average Time:       0.040436            0.080816            0.094212            
+Voluntary
+Context Switches:   7012                7015                7016                
+Average Voluntary
+Context Switches:   7.012000            7.015000            7.016000            
+Involuntary
+Context Switches:   39                  129                 151                 
+Average Involuntary
+Context Switches:   0.039000            0.129000            0.151000            
+################################################################################
+10000 processes:\n
+################################################################################
+Output Filename:	output-3/sched-other-output-10000
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	10000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        463.420000          0.456000            30.652000           
+User Time:          0.612000            918.936000          1028.300000         
+Total Time:         464.032000          919.392000          1058.952000         
+Average Time:       0.046403            0.091939            0.105895            
+Voluntary
+Context Switches:   41661               27437               32434               
+Average Voluntary
+Context Switches:   4.166100            2.743700            3.243400            
+Involuntary
+Context Switches:   313739              220232              353929              
+Average Involuntary
+Context Switches:   31.373900           22.023200           35.392900           
+################################################################################
+################################################################################
+Output Filename:	output-3/sched-fifo-output-10000
+Scheduling Policy:	SCHED_FIFO
+Number of Processes:	10000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        380.592000          0.064000            28.688000           
+User Time:          0.756000            787.776000          907.764000          
+Total Time:         381.348000          787.840000          936.452000          
+Average Time:       0.038135            0.078784            0.093645            
+Voluntary
+Context Switches:   70071               70147               70157               
+Average Voluntary
+Context Switches:   7.007100            7.014700            7.015700            
+Involuntary
+Context Switches:   576                 818                 1020                
+Average Involuntary
+Context Switches:   0.057600            0.081800            0.102000            
+################################################################################
+################################################################################
+Output Filename:	output-3/sched-rr-output-10000
+Scheduling Policy:	SCHED_RR
+Number of Processes:	10000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        398.404000          0.080000            28.136000           
+User Time:          0.936000            790.320000          881.440000          
+Total Time:         399.340000          790.400000          909.576000          
+Average Time:       0.039934            0.079040            0.090958            
+Voluntary
+Context Switches:   70081               70157               70175               
+Average Voluntary
+Context Switches:   7.008100            7.015700            7.017500            
+Involuntary
+Context Switches:   617                 1267                1472                
+Average Involuntary
+Context Switches:   0.061700            0.126700            0.147200            
+################################################################################

@@ -1,0 +1,113 @@
+
+##########          sched-other-output-100##########          
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        4.292000            0.004000            0.224000            
+User Time:          0.020000            7.252000            7.844000            
+Voluntary
+Context Switches:   466                 444                 580                 
+Involuntary
+Context Switches:   2670                2637                4538                
+
+##########          sched-other-output-1000##########          
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	1000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        45.428000           0.048000            2.740000            
+User Time:          0.068000            76.172000           99.996000           
+Voluntary
+Context Switches:   4648                3120                2981                
+Involuntary
+Context Switches:   37220               24457               36715               
+
+##########          sched-other-output-10000##########          
+Scheduling Policy:	SCHED_OTHER
+Number of Processes:	10000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        459.328000          0.612000            30.004000           
+User Time:          0.748000            918.052000          1033.052000         
+Voluntary
+Context Switches:   39405               28557               29690               
+Involuntary
+Context Switches:   324625              216197              340233              
+
+##########          sched-fifo-output-100##########          
+Scheduling Policy:	SCHED_FIFO
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        3.812000            0.004000            0.216000            
+User Time:          0.008000            6.692000            7.660000            
+Voluntary
+Context Switches:   701                 702                 702                 
+Involuntary
+Context Switches:   0                   13                  11                  
+
+##########          sched-fifo-output-1000##########          
+Scheduling Policy:	SCHED_FIFO
+Number of Processes:	1000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        40.296000           0.004000            3.328000            
+User Time:          0.100000            69.492000           102.348000          
+Voluntary
+Context Switches:   7012                7015                7020                
+Involuntary
+Context Switches:   59                  68                  112                 
+
+##########          sched-fifo-output-10000##########          
+Scheduling Policy:	SCHED_FIFO
+Number of Processes:	10000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        389.488000          0.084000            27.740000           
+User Time:          0.780000            828.136000          907.308000          
+Voluntary
+Context Switches:   70091               70162               70180               
+Involuntary
+Context Switches:   591                 925                 929                 
+==> sched-rr-output-100 <==
+
+##########          sched-rr-output-100 ##########          
+Scheduling Policy:	SCHED_RR
+Number of Processes:	100
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        4.080000            0.000000            0.392000            
+User Time:          0.000000            10.004000           15.452000           
+Voluntary
+Context Switches:   701                 701                 701                 
+Involuntary
+Context Switches:   3                   15                  19                  
+
+==> sched-rr-output-1000 <==
+
+##########          sched-rr-output-1000##########          
+Scheduling Policy:	SCHED_RR
+Number of Processes:	1000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        40.744000           0.000000            2.844000            
+User Time:          0.088000            83.980000           87.380000           
+Voluntary
+Context Switches:   7007                7014                7020                
+Involuntary
+Context Switches:   48                  117                 143                 
+
+==> sched-rr-output-10000 <==
+
+##########          sched-rr-output-10000##########          
+Scheduling Policy:	SCHED_RR
+Number of Processes:	10000
+Field               IO                  CPU                 Mixed               
+--------------------------------------------------------------------------------
+System Time:        393.104000          0.096000            28.356000           
+User Time:          0.848000            826.540000          900.176000          
+Voluntary
+Context Switches:   70082               70157               70173               
+Involuntary
+Context Switches:   693                 1419                1451                
